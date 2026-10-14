@@ -14,18 +14,18 @@ h1{font-size:38px;font-weight:300;letter-spacing:-.02em}h2{font-size:24px;font-w
 #elec[aria-pressed=true]{background:#1b1b1b;color:#ffcf7a}
 .tag{position:fixed;z-index:3;font:700 10px/1 Helvetica,Arial;letter-spacing:.08em;color:#1b1b1b;background:#ffcf7a;padding:4px 6px;border-radius:2px;transform:translate(-50%,-140%);pointer-events:none;white-space:nowrap;opacity:0;transition:opacity .3s;max-width:calc(100% - 16px - env(safe-area-inset-left,0px) - env(safe-area-inset-right,0px));overflow:hidden;text-overflow:ellipsis}
 @media (max-width:700px){
- .brand{font-size:10px;letter-spacing:.08em;max-width:calc(50% - 12px - env(safe-area-inset-left,0px));line-height:1.35}
- #elec{font-size:10px;letter-spacing:.04em;padding:8px 10px;max-width:calc(48% - 8px - env(safe-area-inset-right,0px))}
- .card{top:auto;bottom:calc(86px + env(safe-area-inset-bottom,0px));margin-top:0;left:calc(14px + env(safe-area-inset-left,0px));right:calc(14px + env(safe-area-inset-right,0px));max-width:none;padding:14px 16px}
+ .brand{font-size:10px;letter-spacing:.06em;left:calc(14px + env(safe-area-inset-left,0px));max-width:calc(46% - env(safe-area-inset-left,0px));line-height:1.35}
+ #elec{font-size:10px;letter-spacing:.04em;padding:8px 8px;max-width:calc(46% - env(safe-area-inset-right,0px))}
+ .card{top:auto;bottom:calc(128px + env(safe-area-inset-bottom,0px));margin-top:0;left:calc(14px + env(safe-area-inset-left,0px));right:calc(14px + env(safe-area-inset-right,0px));max-width:none;padding:14px 16px}
  h1{font-size:28px}h2{font-size:20px}
- .titleblock{left:calc(14px + env(safe-area-inset-left,0px));right:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-width:calc(58% - env(safe-area-inset-left,0px));padding:6px 8px}
- #hint{left:auto;right:calc(14px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:none;letter-spacing:.12em;font-size:10px;text-align:right}
+ .titleblock{left:calc(14px + env(safe-area-inset-left,0px));right:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-width:calc(100% - 156px - env(safe-area-inset-left,0px) - env(safe-area-inset-right,0px));padding:6px 8px}
+ #hint{left:auto;right:calc(14px + env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:none;letter-spacing:.1em;font-size:10px;text-align:right}
  section{padding:0 16px}
 }
 @media (max-height:500px){
- .card{top:auto;bottom:calc(52px + env(safe-area-inset-bottom,0px));margin-top:0;max-width:min(300px,calc(46% - env(safe-area-inset-left,0px)));padding:10px 12px}
+ .card{top:auto;bottom:calc(52px + env(safe-area-inset-bottom,0px));margin-top:0;left:calc(14px + env(safe-area-inset-left,0px));right:auto;max-width:min(300px,calc(46% - env(safe-area-inset-left,0px)));padding:10px 12px}
  h1{font-size:22px}h2{font-size:16px}p{font-size:12px}
- .titleblock{top:calc(52px + env(safe-area-inset-top,0px));bottom:auto;right:calc(12px + env(safe-area-inset-right,0px));left:auto;max-width:min(240px,42%)}
- #hint{bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+ .titleblock{top:calc(68px + env(safe-area-inset-top,0px));bottom:auto;right:calc(12px + env(safe-area-inset-right,0px));left:auto;max-width:min(200px,36%)}
+ #hint{left:50%;right:auto;bottom:calc(10px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);text-align:center}
  #elec{min-height:36px;padding:6px 8px}
 }
